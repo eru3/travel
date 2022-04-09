@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* ------------------------------------------ main ----------------------------------------------- */
+
+header {
+  height: 150px;
+  background-color: #e2ebe9;
+  padding-bottom: calc(10vw + 10px);  
+  position: relative;
+}
+
+header:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 10vw solid #fff;
+  border-left: 100vw solid transparent;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+.header-title a {
+  display: inline-block;
+  padding: 30px;
+  font-family: Century;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  color: #555;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.header-title p {
+  padding-left: 120px;
+}
+
+/* --------------------------------------- main ---------------------------------------------- */
+
+.main {
+  padding-bottom: calc(10vw + 10px);  
+  position: relative;
+}
+
+.main:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 10vw solid aliceblue; 
+  border-left: 100vw solid transparent;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.main-left {
+  position: relative;
+  width: 40%;
+  margin: 5rem 2.5rem 5rem 0;
+  padding: 0.8rem;
+  border: 0.2px solid #888;
+  font-family: corbel, Arial;
+  color: #333;
+}
+
+.main-left:before {
+  position: absolute;
+  top: 9%;
+  left: 6%;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  z-index: -1;
+  background-color: rgba(238, 204, 221, 0.7);
+}
+
+.info-title {
+  font-weight: lighter;
+  font-size: 3.3rem;
+}
+
+.info-paras {
+  padding-top: 10px;
+  padding-left: 18px;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+.main-right {
+  width: 60%;
+}
+
+.chubu-map {
+  width: 86rem;
+}
+
+
+/* ------------------------------ navi ------------------------------------ */
+
+.navi {
+  padding: 3rem;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+
+.navi-wrapper li {
+  float: left;
+  width: 14rem;
+  margin: 1rem 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 7px;
+  width: 13.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-family: corbel;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.kanji {
+  font-family: serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  color: #111;
+}
+
+
+.Aichi {
+  background-color: rgba(241,153,165);
+}
+
+.Shizuoka {
+  background-color: rgba(142,209,209);
+}
+
+.Gifu {
+  background-color: rgba(240,218,192);
+}
+
+.Fukui {
+  background-color: rgba(245,203,215);
+}
+
+.Ishikawa {
+  background-color: rgba(235,244,167);
+}
+
+.Toyama {
+  background-color: rgba(221,166,202);
+}
+
+.Nagano {
+  background-color: rgba(188,215,153);
+}
+
+.Yamanashi {
+  background-color: rgba(250,213,148);
+}
+
+.Niigata {
+  background-color: rgba(195,169,139, 0.9);
+}
+
