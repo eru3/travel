@@ -1,0 +1,120 @@
+@media (max-width: 950px) {
+  .main-wrapper {
+    width: 95%;
+  }
+
+}
+
+@media (max-width: 690px) {
+  .toptitle {
+    font-size: 2.5rem;
+  }
+
+  .toptitle2 {
+    font-size: 2rem;
+  }
+
+  .main-wrapper {
+    display: block;
+    width: 95%;
+  }
+
+  .main-left {
+    width: 100%;
+  }
+
+  .intro h1{
+    font-size: 2.2rem;
+  }
+
+  .menu {
+    display: inline-block;
+    margin-right: 25px;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+  }
+
+  .menubtn:after {
+    border-width: 1.3rem 15px 1.3rem 0px;
+  }
+
+  .menubtn {
+    padding-left: 1rem;
+  }
+
+
+
+  /*-------------- map ---------------*/
+  .main-right {
+    width: 100%;
+  }
+  
+  .map {
+    box-shadow: 4px 4px 4px 0 rgba(205, 92, 92, 0.5);
+  }
+
+  .okinawa {
+    margin-top: 30rem;
+    margin-bottom: 7rem;
+    height: 2rem;
+  }
+
+  .kyusyu {
+    margin-top: 22rem;
+    height: 7rem;
+    width: 95%;
+  }
+
+  .chugoku {
+    margin-top: 19rem;
+    height: 3.5rem;
+    width: 95%;
+  }
+
+  .shikoku {
+    margin-top: 1rem;
+    height: 2.8rem;
+    width: 95%;
+  }
+
+  .kinki {
+    margin-top: 19rem;
+    height: 7rem;
+    width: 91%;
+  }
+
+  .chubu {
+    margin-top: 14rem;
+    height: 9rem;
+    width: 95%;
+  }
+
+  .hokkaido {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    height: 6.3rem;
+    width: 95%;
+  }
+
+  .tohoku {
+    height: 8.8rem;
+  }
+
+  .kanto {
+    margin-top: 0.5rem;
+    height: 5.6rem;
+  }
+
+
+
+
+  .sites {
+    display: block;
+  }
+
+  .sites li {
+    margin-bottom: 2rem;
+  }
+
+}
